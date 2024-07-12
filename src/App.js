@@ -89,12 +89,6 @@ export default function App() {
             <p>City: {city}</p>
             <p>Postcode: {postcode}</p>
           </div>
-          {/* <p>
-            Generated URL:{" "}
-            <a href={generatedUrl} target="_blank" rel="noopener noreferrer">
-              {generatedUrl}
-            </a>
-          </p> */}
           <p class="gps">
             Your GPS position:{" "}
             <a
@@ -109,10 +103,6 @@ export default function App() {
             <iframe
               width="400"
               height="250"
-              frameBorder="0"
-              scrolling="no"
-              marginHeight="0"
-              marginWidth="0"
               src={mapImageUrl}
               title="Map"
             ></iframe>
